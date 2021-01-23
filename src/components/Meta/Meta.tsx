@@ -7,7 +7,7 @@ interface IProps {
   children?: any;
 }
 
-export const Meta = ({ description = '[CHANGE ME] Something default description', title = '[CHANGE ME] Something Default Title', children }: IProps) => (
+export const Meta = ({ description = 'About Cannicombustiva', title = 'Hippodrome', children }: IProps) => (
   <Head>
     <title>{title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
