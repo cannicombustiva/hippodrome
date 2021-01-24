@@ -1,8 +1,178 @@
-.Name {
-  font-family: monospace;
-  color: white;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&display=swap');
 
 .Box {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
   background-color: transparent;
+  border-style: solid;
+  border-radius: 35px;
+  margin: auto;
+  width: 25%;
+  margin-top: 68px;
+  padding: 32px;
+}
+
+.Box h3 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.Box h4 {
+  text-align: center;
+}
+
+.Box p {
+  text-align: center;
+}
+
+.SocialContent {
+  text-align: center;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 761px) {
+  .Box {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 35px;
+    margin: auto;
+    width: 25%;
+    margin-top: 68px;
+    padding: 32px;
+    margin-top: 27px;
+  }
+
+  .Box h3 {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .Box h4 {
+    text-align: center;
+  }
+
+  .Box p {
+    text-align: center;
+  }
+
+  .SocialContent {
+    text-align: center;
+    margin-bottom: 5px;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 760px) {
+  .Box {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 35px;
+    margin: auto;
+    width: 25%;
+    margin-top: 68px;
+    padding: 32px;
+  }
+
+  .Box h3 {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .Box h4 {
+    text-align: center;
+  }
+
+  .Box p {
+    text-align: center;
+  }
+
+  .SocialContent {
+    text-align: center;
+    margin-bottom: 5px;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 480px) {
+  .Name {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-left: 250px;
+  }
+
+  .Description {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-left: 377px;
+    margin-right: 417px;
+  }
+
+  .Title {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-left: 330px;
+  }
+
+  .Box {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 35px;
+    margin: auto;
+    width: 25%;
+    margin-top: 68px;
+    padding: 32px;
+  }
+
+  .Box h3 {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .Box h4 {
+    text-align: center;
+  }
+
+  .Box p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 360px) {
+  .Box {
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    border-style: solid;
+    border-radius: 35px;
+    margin: auto auto auto auto;
+    padding: 32px;
+    height: 474px;
+    width: 212px;
+    margin-top: 142px;
+  }
+
+  .Box h3 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: medium;
+  }
+
+  .Box h4 {
+    text-align: center;
+    font-size: medium;
+  }
+
+  .Box p {
+    text-align: center;
+    font-size: small;
+  }
+
+  .SocialContent {
+    text-align: center;
+    margin-bottom: 5px;
+    justify-content: space-between;
+  }
 }
