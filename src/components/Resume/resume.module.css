@@ -165,10 +165,10 @@
     border-style: solid;
     border-radius: 35px;
     margin: auto auto auto auto;
-    padding: 32px;
+    padding: 5px;
     height: 474px;
     width: 212px;
-    margin-top: 142px;
+    margin-top: 45px;
   }
 
   .Box h3 {
@@ -185,6 +185,8 @@
   .Box p {
     text-align: center;
     font-size: small;
+    margin-bottom: 30px;
+    padding: 5px;
   }
 
   .SocialContent {
