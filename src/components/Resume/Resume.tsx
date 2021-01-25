@@ -15,11 +15,19 @@ const Resume = () => (
       <p>FORGET ABOUT OTHER CANDIDATES: I'M THE BEST.</p>
     </div>
     <div className={style.SocialContent}>
-      <SocialIcon url="http://github.com/cannicombustiva" />
-      <SocialIcon url="https://www.linkedin.com/in/salvatore-difranco-ab4844110/" />
-      <SocialIcon url="https://twitter.com/Cannicombustiva" />
+      <ul>
+        <li>
+          <SocialIcon url="http://github.com/cannicombustiva" />
+        </li>
+        <li>
+          <SocialIcon url="https://www.linkedin.com/in/salvatore-difranco-ab4844110/" />
+        </li>
+        <li>
+          <SocialIcon url="https://twitter.com/Cannicombustiva" />
+        </li>
+      </ul>
+      <div className={style.Clear} />
     </div>
-
   </div>
 
 );
