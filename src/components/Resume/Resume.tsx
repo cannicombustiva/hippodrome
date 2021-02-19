@@ -9,7 +9,7 @@ const Resume = () => (
     <h4>Front end developer</h4>
     <div>
       <p>
-        Hello ladies and gentlemen, I build stuff into the web.
+        Hello ladies and gentlemen, I build stuff on the web.
         New in React and I love it.
       </p>
       <p>FORGET ABOUT OTHER CANDIDATES: I'M THE BEST.</p>
